@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFC32E6205F865A00D2DC21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC32E5205F865A00D2DC21 /* AppDelegate.swift */; };
+		1AFC32E8205F865A00D2DC21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC32E7205F865A00D2DC21 /* ViewController.swift */; };
+		1AFC32EB205F865A00D2DC21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC32E9205F865A00D2DC21 /* Main.storyboard */; };
+		1AFC32EE205F865A00D2DC21 /* CocoCinema.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC32EC205F865A00D2DC21 /* CocoCinema.xcdatamodeld */; };
+		1AFC32F0205F865A00D2DC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC32EF205F865A00D2DC21 /* Assets.xcassets */; };
+		1AFC32F3205F865A00D2DC21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC32F1205F865A00D2DC21 /* LaunchScreen.storyboard */; };
+		1AFC32FE205F865A00D2DC21 /* CocoCinemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC32FD205F865A00D2DC21 /* CocoCinemaTests.swift */; };
+		1AFC3309205F865A00D2DC21 /* CocoCinemaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3308205F865A00D2DC21 /* CocoCinemaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AFC32FA205F865A00D2DC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFC32DA205F865A00D2DC21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFC32E1205F865A00D2DC21;
+			remoteInfo = CocoCinema;
+		};
+		1AFC3305205F865A00D2DC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFC32DA205F865A00D2DC21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFC32E1205F865A00D2DC21;
+			remoteInfo = CocoCinema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AFC32E2205F865A00D2DC21 /* CocoCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFC32E5205F865A00D2DC21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AFC32E7205F865A00D2DC21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFC32EA205F865A00D2DC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFC32ED205F865A00D2DC21 /* CocoCinema.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CocoCinema.xcdatamodel; sourceTree = "<group>"; };
+		1AFC32EF205F865A00D2DC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFC32F2205F865A00D2DC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AFC32F4205F865A00D2DC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFC32F9205F865A00D2DC21 /* CocoCinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoCinemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFC32FD205F865A00D2DC21 /* CocoCinemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoCinemaTests.swift; sourceTree = "<group>"; };
+		1AFC32FF205F865A00D2DC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFC3304205F865A00D2DC21 /* CocoCinemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoCinemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFC3308205F865A00D2DC21 /* CocoCinemaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoCinemaUITests.swift; sourceTree = "<group>"; };
+		1AFC330A205F865A00D2DC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AFC32DF205F865A00D2DC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFC32F6205F865A00D2DC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFC3301205F865A00D2DC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFC32D9205F865A00D2DC21 = {
+			isa = PBXGroup;
+			children = (
+				1AFC32E4205F865A00D2DC21 /* CocoCinema */,
+				1AFC32FC205F865A00D2DC21 /* CocoCinemaTests */,
+				1AFC3307205F865A00D2DC21 /* CocoCinemaUITests */,
+				1AFC32E3205F865A00D2DC21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AFC32E3205F865A00D2DC21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFC32E2205F865A00D2DC21 /* CocoCinema.app */,
+				1AFC32F9205F865A00D2DC21 /* CocoCinemaTests.xctest */,
+				1AFC3304205F865A00D2DC21 /* CocoCinemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AFC32E4205F865A00D2DC21 /* CocoCinema */ = {
+			isa = PBXGroup;
+			children = (
+				1AFC32E5205F865A00D2DC21 /* AppDelegate.swift */,
+				1AFC32E7205F865A00D2DC21 /* ViewController.swift */,
+				1AFC32E9205F865A00D2DC21 /* Main.storyboard */,
+				1AFC32EF205F865A00D2DC21 /* Assets.xcassets */,
+				1AFC32F1205F865A00D2DC21 /* LaunchScreen.storyboard */,
+				1AFC32F4205F865A00D2DC21 /* Info.plist */,
+				1AFC32EC205F865A00D2DC21 /* CocoCinema.xcdatamodeld */,
+			);
+			path = CocoCinema;
+			sourceTree = "<group>";
+		};
+		1AFC32FC205F865A00D2DC21 /* CocoCinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFC32FD205F865A00D2DC21 /* CocoCinemaTests.swift */,
+				1AFC32FF205F865A00D2DC21 /* Info.plist */,
+			);
+			path = CocoCinemaTests;
+			sourceTree = "<group>";
+		};
+		1AFC3307205F865A00D2DC21 /* CocoCinemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFC3308205F865A00D2DC21 /* CocoCinemaUITests.swift */,
+				1AFC330A205F865A00D2DC21 /* Info.plist */,
+			);
+			path = CocoCinemaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AFC32E1205F865A00D2DC21 /* CocoCinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFC330D205F865B00D2DC21 /* Build configuration list for PBXNativeTarget "CocoCinema" */;
+			buildPhases = (
+				1AFC32DE205F865A00D2DC21 /* Sources */,
+				1AFC32DF205F865A00D2DC21 /* Frameworks */,
+				1AFC32E0205F865A00D2DC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoCinema;
+			productName = CocoCinema;
+			productReference = 1AFC32E2205F865A00D2DC21 /* CocoCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFC32F8205F865A00D2DC21 /* CocoCinemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFC3310205F865B00D2DC21 /* Build configuration list for PBXNativeTarget "CocoCinemaTests" */;
+			buildPhases = (
+				1AFC32F5205F865A00D2DC21 /* Sources */,
+				1AFC32F6205F865A00D2DC21 /* Frameworks */,
+				1AFC32F7205F865A00D2DC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFC32FB205F865A00D2DC21 /* PBXTargetDependency */,
+			);
+			name = CocoCinemaTests;
+			productName = CocoCinemaTests;
+			productReference = 1AFC32F9205F865A00D2DC21 /* CocoCinemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AFC3303205F865A00D2DC21 /* CocoCinemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFC3313205F865B00D2DC21 /* Build configuration list for PBXNativeTarget "CocoCinemaUITests" */;
+			buildPhases = (
+				1AFC3300205F865A00D2DC21 /* Sources */,
+				1AFC3301205F865A00D2DC21 /* Frameworks */,
+				1AFC3302205F865A00D2DC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFC3306205F865A00D2DC21 /* PBXTargetDependency */,
+			);
+			name = CocoCinemaUITests;
+			productName = CocoCinemaUITests;
+			productReference = 1AFC3304205F865A00D2DC21 /* CocoCinemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AFC32DA205F865A00D2DC21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Lisheng;
+				TargetAttributes = {
+					1AFC32E1205F865A00D2DC21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1AFC32F8205F865A00D2DC21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AFC32E1205F865A00D2DC21;
+					};
+					1AFC3303205F865A00D2DC21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AFC32E1205F865A00D2DC21;
+					};
+				};
+			};
+			buildConfigurationList = 1AFC32DD205F865A00D2DC21 /* Build configuration list for PBXProject "CocoCinema" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AFC32D9205F865A00D2DC21;
+			productRefGroup = 1AFC32E3205F865A00D2DC21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AFC32E1205F865A00D2DC21 /* CocoCinema */,
+				1AFC32F8205F865A00D2DC21 /* CocoCinemaTests */,
+				1AFC3303205F865A00D2DC21 /* CocoCinemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AFC32E0205F865A00D2DC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFC32F3205F865A00D2DC21 /* LaunchScreen.storyboard in Resources */,
+				1AFC32F0205F865A00D2DC21 /* Assets.xcassets in Resources */,
+				1AFC32EB205F865A00D2DC21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFC32F7205F865A00D2DC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFC3302205F865A00D2DC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFC32DE205F865A00D2DC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFC32E8205F865A00D2DC21 /* ViewController.swift in Sources */,
+				1AFC32E6205F865A00D2DC21 /* AppDelegate.swift in Sources */,
+				1AFC32EE205F865A00D2DC21 /* CocoCinema.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFC32F5205F865A00D2DC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFC32FE205F865A00D2DC21 /* CocoCinemaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFC3300205F865A00D2DC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFC3309205F865A00D2DC21 /* CocoCinemaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AFC32FB205F865A00D2DC21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFC32E1205F865A00D2DC21 /* CocoCinema */;
+			targetProxy = 1AFC32FA205F865A00D2DC21 /* PBXContainerItemProxy */;
+		};
+		1AFC3306205F865A00D2DC21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFC32E1205F865A00D2DC21 /* CocoCinema */;
+			targetProxy = 1AFC3305205F865A00D2DC21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AFC32E9205F865A00D2DC21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFC32EA205F865A00D2DC21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFC32F1205F865A00D2DC21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFC32F2205F865A00D2DC21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AFC330B205F865B00D2DC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AFC330C205F865B00D2DC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AFC330E205F865B00D2DC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K359ZDASF;
+				INFOPLIST_FILE = CocoCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisheng.CocoCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AFC330F205F865B00D2DC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K359ZDASF;
+				INFOPLIST_FILE = CocoCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisheng.CocoCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AFC3311205F865B00D2DC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K359ZDASF;
+				INFOPLIST_FILE = CocoCinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisheng.CocoCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoCinema.app/CocoCinema";
+			};
+			name = Debug;
+		};
+		1AFC3312205F865B00D2DC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K359ZDASF;
+				INFOPLIST_FILE = CocoCinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisheng.CocoCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoCinema.app/CocoCinema";
+			};
+			name = Release;
+		};
+		1AFC3314205F865B00D2DC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K359ZDASF;
+				INFOPLIST_FILE = CocoCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisheng.CocoCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoCinema;
+			};
+			name = Debug;
+		};
+		1AFC3315205F865B00D2DC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K359ZDASF;
+				INFOPLIST_FILE = CocoCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisheng.CocoCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoCinema;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFC32DD205F865A00D2DC21 /* Build configuration list for PBXProject "CocoCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFC330B205F865B00D2DC21 /* Debug */,
+				1AFC330C205F865B00D2DC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFC330D205F865B00D2DC21 /* Build configuration list for PBXNativeTarget "CocoCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFC330E205F865B00D2DC21 /* Debug */,
+				1AFC330F205F865B00D2DC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFC3310205F865B00D2DC21 /* Build configuration list for PBXNativeTarget "CocoCinemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFC3311205F865B00D2DC21 /* Debug */,
+				1AFC3312205F865B00D2DC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFC3313205F865B00D2DC21 /* Build configuration list for PBXNativeTarget "CocoCinemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFC3314205F865B00D2DC21 /* Debug */,
+				1AFC3315205F865B00D2DC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AFC32EC205F865A00D2DC21 /* CocoCinema.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AFC32ED205F865A00D2DC21 /* CocoCinema.xcdatamodel */,
+			);
+			currentVersion = 1AFC32ED205F865A00D2DC21 /* CocoCinema.xcdatamodel */;
+			path = CocoCinema.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AFC32DA205F865A00D2DC21 /* Project object */;
+}
